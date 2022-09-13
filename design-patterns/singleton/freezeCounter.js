@@ -28,7 +28,7 @@ class Counter {
 
 const freezeCounterInstance = Object.freeze(new Counter())
 
-freezeCounterInstance.counter = 100
-console.log(freezeCounterInstance.count)
+freezeCounterInstance.a = 100
+console.log(freezeCounterInstance.a)
 
 module.exports = { freezeCounterInstance }

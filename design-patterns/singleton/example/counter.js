@@ -7,7 +7,7 @@ class Counter {
             throw new Error("You can only create one instance!");
         }
         instance = this;
-    }능
+    }
 
     getInstance() {
         return this;
