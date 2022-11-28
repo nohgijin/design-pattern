@@ -1,14 +1,6 @@
 export class HomeTheaterFacade {
-    amp;
-    tuner;
-    dvd;
-    cd;
-    projector;
-    lights;
-    screen;
-    popper;
 
-    constructor(amp,tuner,dvd,cd,projector,lights,screen,popper) {
+    constructor(amp) {
         this.amp=amp;
         this.tuner=tuner;
         this.dvd=dvd;

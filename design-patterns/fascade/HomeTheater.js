@@ -2,21 +2,12 @@ import { HomeTheaterFacade } from "./HomeTheaterFacade";
 
 class HomeTheater {
     homeTheater
-    amp=new Amplifier();
-    tuner=new Tuner();
-    dvd=new Dvd();
-    cd=new Cd();
-    projector=new Projector();
-    lights=new Lights();
-    screen=new Screen();
-    popper=new Popper();
-
-
-    constructor() {
-        this.homeTheater = new HomeTheaterFacade(this.amp,this.tuner,this.dvd,this.cd,this.projector,this.lights,this.screen,this.popper);
+    constructor(homeTheaterFacade) {
+        this.homeTheater = homeTheaterFacade
     }
 }
 
-const homeTheater = new HomeTheater()
+const homeTheaterFacade = new HomeTheaterFacade(new Amplifier(), new Tuner(), new Dvd(), new Cd(), new Projector(), new Lights(), new Screen(), new Popper())
+const homeTheater = new HomeTheater(homeTheaterFacade)
 homeTheater.watchMovie('타짜')
 homeTheater.endMovie()
