@@ -7,4 +7,3 @@
 ### Case study
 - express.js에서 middleware를 쓰는 경우
 - - `/`로 들어가면 request에 header를 더하는 로직처럼 Middleware 간단히 추가 가능
-- 
