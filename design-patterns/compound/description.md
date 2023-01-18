@@ -122,4 +122,3 @@ export default function FlyoutMenu() {
 - compound component만 import해도 다른 자식 컴포넌트 import
 ### 단점
 - 이름 충돌
-- 
