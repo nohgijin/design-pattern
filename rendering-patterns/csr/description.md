@@ -23,3 +23,5 @@
   - 런타임에서 다이나믹하게 로드될 수 있도록 쪼개기
 - 서비스워커
   - 최소한의 html, css, js를 캐시시켜놓으므로서 오프라인에서도 사용 가능
+  - https://webpack.kr/guides/progressive-web-application/
+  - https://web.dev/precache-with-workbox-react/
