@@ -33,7 +33,7 @@ export default function Products({ products }) {
 - getStaticPaths 함수를 통해 build시간에 id에 접근 가능
 ```
 
-// pages/products/[id].js
+// pages/products/[id].tsx
 
 // In getStaticPaths(), you need to return the list of
 // ids of product pages (/products/[id]) that you’d
