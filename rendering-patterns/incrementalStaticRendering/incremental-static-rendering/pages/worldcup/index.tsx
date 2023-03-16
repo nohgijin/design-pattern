@@ -1,5 +1,5 @@
 export default function WorldCup( {time}: {time:any} ){
-    return <div>{time.utc_datetime}시간시간</div>
+    return <div>하이하이하이하이하이버셀버셀버셀버셀버셀{time.utc_datetime}시간시간</div>
 }
 
 export async function getStaticProps() {
