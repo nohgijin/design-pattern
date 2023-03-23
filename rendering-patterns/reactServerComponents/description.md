@@ -16,3 +16,5 @@
 - 서버 컴포넌트 코드는 클라이언트에 전송이 안됨
 - 서버 컴포넌트는 어디든지 백엔드 접근 가능 (Next는 getServerProps로만 접근 가능)
 - 클라이언트 상태 유지한 채 서버로 받아올 수 있음
+### 참고
+- https://yceffort.kr/2022/01/how-react-server-components-work
